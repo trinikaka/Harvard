@@ -1,0 +1,14 @@
+nav{
+    display: flex;
+    flex-flow: row-reverse;
+}
+
+nav a{
+    color:black;
+    margin: 20px;
+    text-decoration:none;
+}
+
+nav a:hover{
+    color: rgb(25, 12, 214)
+}

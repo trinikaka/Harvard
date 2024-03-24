@@ -1,0 +1,55 @@
+.container{
+    margin : 0 40px;
+}
+
+h4{
+    color: #d93025;
+    font-weight: 200;
+    font-size:20px;
+    font-family: Arial, sans-serif;
+}
+
+.button-container {
+  margin-left: 500px;
+}
+
+body{
+    color:rgb(39, 38, 38)
+}
+
+h5{
+    font-size: 15px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 200px 700px auto;
+    column-gap: 5px;
+    row-gap:10px;
+}
+
+.main-header{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.second-label{
+    font-size:14px;
+    color: #777
+}
+.inp{
+    width: 90%;
+}
+
+button[type="submit"]{
+    background-color:#4d90fe;
+    color:white;
+    padding:10px;
+    border-radius: 5px;
+    margin-left:20%;
+    margin-top: 2%;
+}
